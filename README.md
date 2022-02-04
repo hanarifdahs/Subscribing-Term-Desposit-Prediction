@@ -1,12 +1,12 @@
 # Subscribing-Term-Desposit-Prediction
 
-#Introduction
+# Introduction
 
 Nama: Hana Rifdah Sakinah -  Batch 006
 
 ---
 
-###**Dataset Information**
+### **Dataset Information**
 
 The data is related with direct marketing campaigns of a Portuguese banking institution. The marketing campaigns were based on phone calls. Often,  more than one contact to the same client was required,  in order to access if the product (bank term deposit) would be ('yes') or not ('no') subscribed.
 
@@ -15,7 +15,7 @@ This dataset contain 488 rows and 20 columns,  start from May 2008 until Novembe
 The classification goal is to predict if the client will subscribe (yes/no) a term deposit (variable y)
 
 
-###**Atrribute Information**
+### **Atrribute Information**
 
 * **age** (*numeric*)
 * **job** : type of job (*categorical*: 'admin.',  'blue-collar',  'entrepreneur',  'housemaid',  'management',  'retired',  'self-employed', 'services', 'student', 'technician', 'unemployed', 'unknown')
@@ -26,7 +26,7 @@ The classification goal is to predict if the client will subscribe (yes/no) a te
 * **loan**: has personal loan? (*categorical*: 'no', 'yes', 'unknown')
 
 
-#####*related with the last contact of the current campaign*:
+##### *related with the last contact of the current campaign*:
 
 
 * **contact**: contact communication type (*categorical*: 'cellular', 'telephone')
@@ -35,7 +35,7 @@ The classification goal is to predict if the client will subscribe (yes/no) a te
 * **duration**: last contact duration,  in seconds (*numeric*). Important note: this attribute highly affects the output target (e.g.,  if duration=0 then y='no'). Yet,  the duration is not known before a call is performed. Also,  after the end of the call y is obviously known. Thus,  this input should only be included for benchmark purposes and should be discarded if the intention is to have a realistic predictive model.
 
 
-####*other attributes*:
+#### *other attributes*:
 
 
 * **campaign**: number of contacts performed during this campaign and for this client (*numeric*,  includes last contact)
