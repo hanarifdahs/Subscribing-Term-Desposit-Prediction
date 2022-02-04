@@ -2,9 +2,6 @@
 
 # Introduction
 
-Nama: Hana Rifdah Sakinah -  Batch 006
-
----
 
 ### **Dataset Information**
 
